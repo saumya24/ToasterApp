@@ -1,0 +1,14 @@
+<h1>Toast Notifications</h1>
+<p>
+  Toast Notifications can be used to notify user in case of success, error or warning. 
+  
+</p>
+<div class="flex">
+  <button class="button button1"  (click)="success()">Success</button>
+  <button class="button button2"  (click)="error()">Error</button>
+  <button class="button button3"  (click)="info()">Info</button>
+  <button class="button button4"  (click)="warn()">Warn</button>
+</div>
+<div class="toast-container absolute bottom-2 right-2">
+  <app-toast></app-toast>
+</div>

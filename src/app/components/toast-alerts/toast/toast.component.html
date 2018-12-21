@@ -1,0 +1,7 @@
+<div *ngFor="let toast of toasts" id="toast" class="toast-message show">
+  <div div id="desc" [className]="toast.type">
+      <p class="f6">{{ toast.message }}</p>
+  <div *ngIf="toast" class="toast-x absolute pointer" (click)="removeToast(toast)" aria-label="close">X</div>
+  </div>
+
+</div>
