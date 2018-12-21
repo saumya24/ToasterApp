@@ -1,5 +1,5 @@
 # ReminderApp
-
+Light Weight Angular Application for showing toast notifications.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.5.
 
 ## Development server
@@ -8,6 +8,10 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ## Description
 This App can be reused to show success, error or warning toaster for different user scenario. 
+
+## Features
+Toasts are short messages that show up at the top or bottom of the screen, used in web applications to display feedback to the user. These notifications can range from success or error messages, to warnings or general information. They tend to disappear on their own after a few seconds and are meant to be non-intrusive.
+Shows Toast message for success,error,info,warning conditions in a web application
 
 ## Dependencies
 None
@@ -20,9 +24,6 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
 ## Running end-to-end tests
 
