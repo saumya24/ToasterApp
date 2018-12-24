@@ -13,6 +13,9 @@ This App can be reused to show success, error or warning toaster for different u
 Toasts are short messages that show up at the top or bottom of the screen, used in web applications to display feedback to the user. These notifications can range from success or error messages, to warnings or general information. They tend to disappear on their own after a few seconds and are meant to be non-intrusive.
 Shows Toast message for success,error,info,warning conditions in a web application
 
+## Demo
+https://stackblitz.com/github/saumya24/ToasterApp
+
 ## Dependencies
 None
 
